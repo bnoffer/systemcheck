@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SystemCheck.Shared", "SystemCheck.Shared\SystemCheck.Shared.shproj", "{8B8E7696-3AF1-46A2-9C52-805CB9441A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemCheck.iOS", "SystemCheck.iOS\SystemCheck.iOS.csproj", "{496CC12D-F815-484B-8B71-0971264FC64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemCheck.Android", "SystemCheck.Android\SystemCheck.Android.csproj", "{D2F6BD69-E331-4AAC-9B50-00C50ED74E11}"
+EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "SystemCheck.NuGet", "SystemCheck.NuGet\SystemCheck.NuGet.nuproj", "{D2A5AB04-FF5B-44B5-9A23-5D34B6AEFF2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{496CC12D-F815-484B-8B71-0971264FC64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496CC12D-F815-484B-8B71-0971264FC64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496CC12D-F815-484B-8B71-0971264FC64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496CC12D-F815-484B-8B71-0971264FC64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F6BD69-E331-4AAC-9B50-00C50ED74E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F6BD69-E331-4AAC-9B50-00C50ED74E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F6BD69-E331-4AAC-9B50-00C50ED74E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F6BD69-E331-4AAC-9B50-00C50ED74E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A5AB04-FF5B-44B5-9A23-5D34B6AEFF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A5AB04-FF5B-44B5-9A23-5D34B6AEFF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A5AB04-FF5B-44B5-9A23-5D34B6AEFF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A5AB04-FF5B-44B5-9A23-5D34B6AEFF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
